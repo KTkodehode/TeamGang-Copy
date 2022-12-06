@@ -35,7 +35,7 @@ if (event.target == modal) {
 }
 }
 
-document.getElementById("notToday").src="/img/grinch-yes-no.gif";
+document.getElementById("notToday").src="./img/grinch-yes-no.gif";
 // document.getElementById("yesToday").src="/img/grinch-yes-no.gif";
 
 // let thisDate = new Date();
