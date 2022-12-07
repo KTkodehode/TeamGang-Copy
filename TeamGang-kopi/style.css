@@ -47,15 +47,6 @@ div#snow {
     align-items: start;
     position:fixed;
 }
-.calendar-grid div {
-    color:#ebe2e2;
-    font-size: 50px;
-    border-radius: 60%;
-    -webkit-text-stroke: 1px #000;
-    text-shadow: 0px 0px 18px #c4cee0;
-    padding: 15px;
-
-}
 .cal {
     align-items: center;
     text-align: center;
@@ -128,7 +119,13 @@ h1 {
     padding: 0;
     justify-content: center;
     align-items: center;
-    content: attr(shuffledArray);
     background-size: contain;
     background-repeat: no-repeat;
+    color:#ebe2e2;
+    font-size: 50px;
+    border-radius: 60%;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0px 0px 18px #c4cee0;
+    width: 181px;
+    height: 180px;
   }

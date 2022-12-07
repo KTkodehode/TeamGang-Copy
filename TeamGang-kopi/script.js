@@ -67,12 +67,13 @@ document.getElementById("notToday").src="./img/grinch-yes-no.gif";
 
 const calendarGrid = document.querySelector(".calendar-grid");
 
-for (let i = 1; i <= arrayname.length; i++) {
+for (let i = 1; i <= 24; i++) {
   const randomNumber = Math.floor(Math.random() * 9) + 1;
 
   const day = document.createElement("div");
   day.classList.add("cell");
-  day.style.backgroundImage = `url("img/b${randomNumber}.png")`;
+  day.setAttribute("id", `${i}`);
+  day.style.backgroundImage = `url("baubels/b${randomNumber}.png")`;
   day.textContent = i;
 
   // day.addEventListener("click", () => {
