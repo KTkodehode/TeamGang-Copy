@@ -75,9 +75,9 @@ for (let i = 1; i <= arrayname.length; i++) {
   day.style.backgroundImage = `url("img/b${randomNumber}.png")`;
   day.textContent = i;
 
-  day.addEventListener("click", () => {
+  // day.addEventListener("click", () => {
     
-  } )
+  // } )
   
   calendarGrid.append(day);
 }
