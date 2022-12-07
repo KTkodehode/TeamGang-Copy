@@ -65,4 +65,19 @@ document.getElementById("notToday").src="./img/grinch-yes-no.gif";
 
 //** Legg inn ornaments-bilder i et array? randomize onload (onclick/eventlistener) output i modal + custom på 24. **//
 
+const calendarGrid = document.querySelector(".calendar-grid");
 
+for (let i = 1; i <= arrayname.length; i++) {
+  const randomNumber = Math.floor(Math.random() * 9) + 1;
+
+  const day = document.createElement("div");
+  day.classList.add("cell");
+  day.style.backgroundImage = `url("img/b${randomNumber}.png")`;
+  day.textContent = i;
+
+  day.addEventListener("click", () => {
+    
+  } )
+  
+  calendarGrid.append(day);
+}
