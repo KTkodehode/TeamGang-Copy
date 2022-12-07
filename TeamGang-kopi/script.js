@@ -78,7 +78,7 @@ for (let i = 1; i <= 24; i++) {
 
   // day.addEventListener("click", () => {
     
-  // } )
+  // } ) click event here
   
   calendarGrid.append(day);
 }
